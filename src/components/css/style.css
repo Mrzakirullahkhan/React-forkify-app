@@ -1,0 +1,114 @@
+.child-Div{
+    
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 0; */
+    width: 60%;
+    gap: -4px;
+    
+}
+.heading{
+    word-spacing: 7px;
+    font-weight: lighter;
+    font-size: 2.2rem;
+    color: #e9c557;
+}
+.menu-heading{
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    border-radius: 3px;
+}
+
+.inputValue{
+    /* width: auto; */
+    height: 6vh;
+    width: 30%;
+    /* border: none; */
+    outline: none;
+    display: flex;
+ 
+    margin-top: 5px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    /* font-size: 1.6rem; */
+    /* font-weight: bold; */
+    background-color: white;
+    color: #e9c557;
+    font-family: 'Quicksand', sans-serif;
+    
+    
+    
+}
+.all-content{
+    
+    width: 90%;
+    overflow: auto;
+    height: 55vh;
+    margin-top: 5px;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+/* Scrollbar Track (Background) */
+.all-content::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Scrollbar Thumb (Handle) */
+  .all-content::-webkit-scrollbar-thumb {
+    background: #e9b92b; 
+    border-radius: 5px;
+  }
+  
+  /* Hover Effect on Scrollbar Thumb */
+  .all-content::-webkit-scrollbar-thumb:hover {
+    background: #a57c03; /* Hover effect color */
+  }
+
+  .Item{
+    width: 49%;
+    cursor: pointer;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 16vh;
+    border: 2px solid #e9b92b;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: transform 0.3s ease;
+    /* column-gap: 5px; */
+  }
+  .Item:hover {
+   
+    transform: scale(1.04); 
+  }
+
+  .infromation{
+    width: calc(100% - 100px);
+  }
+
+
+.myimage{
+    border-radius: 3px;
+    border: 2px solid black;
+    width: 100px; /* Width ko specify karein */
+  height: 100px;
+}
+.title{
+    width: 100%;
+    color: #96730b;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.infromation p{
+    margin: 5px 0px;
+}
+
